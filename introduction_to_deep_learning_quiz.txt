@@ -1,0 +1,15 @@
+1. Similar to electricity starting about 100 years ago, AI is transforming multiple industries.
+2. 1) We have access to a lot more data 2) We have access to a lot more computational power 3) Deep learning has resulted in significant improvements in  important
+applications such as online advertising, speech recognition, and image recognition.
+3. 1) Faster computation can help speed up how long a team takes to iterate to a good idea 2) Being able to try out ideas quickly allows deep learning engineers
+to iterate more quickly 3) Recent progress in deep learning algorithms has allowed us to train good models faster (even without changing the CPU/GPU hardware)
+4. False
+5. Figure 3 represents the ReLU activation function. 
+6. False
+7. False
+8. 1) It can be trained as a supervised learning problem 2) It is applicable when the input/output is 1D temporal sequence (e.g. sequence of words)
+9. x-axis is the amount of data and y-axis is the performance of the algorithms
+10. 1) Increasing the training set size generally does not hurt an algorithms performance, and it may help significantly (except in high bias cases) 2) Increasing the size
+of a neural network generally does not hurt an algorithms performance, and it may help significantly (except in high variance cases).
+
+Grade Received: 100%
