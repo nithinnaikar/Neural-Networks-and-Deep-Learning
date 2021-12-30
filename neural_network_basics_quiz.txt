@@ -1,0 +1,13 @@
+1. A neuron computes a linear function (z = Wx + b) followed by an activation function.
+2. The fourth expression represents the logistic loss function.
+3. x = img.reshape((32*32*3, 1))
+4. Through broadcasting to achieve compatible matrices for addition, c.shape = (2, 3)
+5. The * operator signifies element-wise multiplication and therefore there will be an error because the two matrices don't have equal dimensions.
+6. The dimension of input matrix X is (n_x, m), where n_x is the number of features and m is the number of training examples.
+7. c.shape = (12288, 45)
+8. c = a + b.T
+9. Since there is a * operator, this means element-wise multiplication. This will invoke broadcasting, so b, a 3x1 vector, is copied 3 times to become a 3x3 matrix, and then B will
+be multiplied by A, another 3x3 matrix, to become a new matrix C whose shape is 3x3.
+10. By factoring, J = (a - 1) * (b + c)
+
+Grade Received: 100%
