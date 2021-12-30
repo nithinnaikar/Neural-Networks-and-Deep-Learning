@@ -1,0 +1,15 @@
+1. 1) a-super-2 denotes the activation vector of the 2nd layer 2) X is a matrix in which each column is one training example 3) a-super-2-sub-4 is the activation output of the
+4th neuron of the 2nd layer 4) a-super-[2]-(12) denotes the activation vector of the 2nd layer in the 12th training example. 
+2. False, tanh usually works better than sigmoid because its output has mean = 0 which centers data and makes learning easier for the subsequent layer. 
+3. The 4th expression represents the correct vectorized implementation of forward propagation for layer l, 1 <= l <= L
+4. I would recommend using the sigmoid function since it bounds outputs between 0 and 1, therefore allowing you to interpret the output as a probability p(y = 1|x)
+5. B.shape = (4, 1)
+6. Each neuron in the first hidden layer will perform the same computation. So even after multiple iterations of gradient descent, each neuron in the layer will be computing
+the same thing as other neurons.
+7. False, since logistic regression has no hidden layer, the derivatives will not be zero because they depend directly on a non-zero input vector. 
+8. This will cause the inputs of the tanh activation function to be very large, thus causing gradients to converge to 0. The optimization algorithm will thus become slow because
+activation functions are saturated.
+9. 1) b_2 will have shape (1, 1) 2) W_2 will have shape (1, 4) 3) b_1 will have shape (4, 1) 4) W_1 will have shape (4, 2) 
+10. Z_1 and A_1 are both size (4, m), where m is the number of training examples. 
+
+Grade Received: 100%
